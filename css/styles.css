@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para el contenedor azul */
+.blue-box {
+    width: 600px; /* Ancho de tu elección */
+    height: 100px; /* Altura de tu elección */
+    background-color: rgb(17, 137, 207);
+    margin: 10px 0px -22px 0px;
+    margin-bottom: -22px;
+    border-radius: 2px;
+}
+
+/* Estilo para el contenedor blanco */
+.white-box {
+    width: 600px; /* Ancho de tu elección */
+    height: 400px; /* Altura de tu elección */
+    background-color: rgb(246, 244, 244);
+    border-color: grey 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.white-box h1 {
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.white-box p {
+    margin-left: 10px;
+}
+
+.profile-image {
+    width: 100px;
+    align-items: first baseline;
+    margin: -50px 0px 10px 20px;
+    border-radius: 60%;
+}
+
+.location {
+    display: flex; /* Crea un diseño en línea */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilo para la imagen de ubicación */
+.location img {
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 10px; /* Añade espacio entre la imagen y el texto */
+}
+
+/* Estilo para el contenedor de configuración */
+.setting {
+    display: flex; /* Crea un diseño en línea */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilo para la imagen de configuración */
+.setting img {
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+    
+}
+
+a {
+    color: rgb(33, 149, 232);
+}
+
+
+
